@@ -1,0 +1,132 @@
+# access control files
+.access.php
+*.log
+.htaccess
+.htpasswd
+
+# PHPUnit and test output
+phpunit.phar
+/phpunit.xml
+tests/_output/*
+tests/_support/_generated
+
+# Composer dependencies and executable
+/vendor
+composer.phar
+
+# macOS and Windows system files
+.DS_Store
+Thumbs.db
+
+# archive and binary files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.war
+*.ear
+*.sar
+*.class
+
+# VSCode settings
+.vscode/
+
+# IntelliJ IDEA project files
+.idea/
+.air/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse and Zend Studio project files
+.settings/
+.classpath
+.project
+.buildpath
+
+# NetBeans project files
+nbproject/*
+nbproject/private/
+nbbuild/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# Maven build directory
+target/
+
+# Node.js dependencies
+node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# Next.js
+.next/
+out/
+
+# prod
+build
+dist
+dist-ssr
+
+# misc
+*.pem
+
+# debug
+logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+!.env.example
+*.local
+
+# Vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# Vagrant files
+/.vagrant/
+
+# temporary and runtime files
+.temp
+temp
+/runtime
+.cache
+
+# React Router
+/.react-router/
+
+# Eslint
+.eslintcache
+
+# WordPress
+/wordpress
+
+# ai
+/.ai
+/ai
+/.aiassistant
+/.air/*
+/.junie
+AGENTS.md
+CLAUDE.md

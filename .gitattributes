@@ -1,0 +1,66 @@
+# Treat all files as text and enforce Unix-style line endings (LF)
+* text eol=lf
+
+# Fonts as binary (no diffs/line ending conversion)
+*.ttf binary
+*.otf binary
+*.eot binary
+*.woff binary
+*.woff2 binary
+
+# Image
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.avif binary
+*.gif binary
+*.ico binary
+
+# Common asset formats
+*.mp4 binary
+*.webm binary
+*.pdf binary
+*.zip binary
+*.tar binary
+*.gz binary
+*.7z binary
+*.rar binary
+*.iso binary
+*.dmg binary
+
+# Audio and video files
+*.mp3 binary
+*.wav binary
+*.ogg binary
+*.flac binary
+*.avi binary
+*.mov binary
+*.mkv binary
+
+# Minified JS/CSS
+*.min.js binary
+*.min.css binary
+
+# Office and other document formats
+*.doc binary
+*.docx binary
+*.xls binary
+*.xlsx binary
+*.ppt binary
+*.pptx binary
+
+# Design files
+*.psd binary
+*.ai binary
+*.sketch binary
+*.fig binary
+
+# Medical/3D model files
+*.dcm binary
+*.stl binary
+*.obj binary
+
+# Database files
+*.db binary
+*.sqlite binary
