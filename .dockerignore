@@ -29,3 +29,7 @@ Thumbs.db
 *.log
 *.tmp
 *.swp
+
+# Docker
+Dockerfile
+compose.yml
