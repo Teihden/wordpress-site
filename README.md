@@ -5,7 +5,7 @@ Local WordPress project running on Docker Compose with a separate MySQL containe
 ## What Is Included
 
 - `wordpress:latest` for the application
-- `mysql:8.0` for the database
+- `mysql:8.4` for the database
 - `phpmyadmin:latest` for DB web UI
 - `.env` for local secrets
 - `.env.example` as an environment variable template
