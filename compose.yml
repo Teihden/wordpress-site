@@ -12,6 +12,8 @@ services:
       MYSQL_PASSWORD: ${MYSQL_PASSWORD}
     volumes:
       - db_data:/var/lib/mysql
+    networks:
+      - wp_network
 
   wordpress:
     image: wordpress:latest
@@ -38,6 +40,8 @@ services:
       start_period: 5s
     depends_on:
       - db
+    networks:
+      - wp_network
 
   phpmyadmin:
     image: phpmyadmin:latest
@@ -51,6 +55,12 @@ services:
       MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
     depends_on:
       - db
+    networks:
+      - wp_network
 
 volumes:
   db_data:
+
+networks:
+  wp_network:
+    name: ${COMPOSE_PROJECT_NAME:-wordpress-site}_network
