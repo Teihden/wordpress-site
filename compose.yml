@@ -64,3 +64,6 @@ volumes:
 networks:
   wp_network:
     name: ${COMPOSE_PROJECT_NAME:-wordpress-site}_network
+    driver: bridge
+    external: false
+    internal: false
